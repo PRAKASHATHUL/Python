@@ -4,12 +4,12 @@ for k in range(1,11):
 print("")
 """
     
-"""name=input("Enter name :")
+name=input("Enter name :")
 for n in range(8):
     print(name)
-    """
+    
 
-num=int(input("Enter the number:"))
+"""num=int(input("Enter the number:"))
 for v in range(1,num):
     if v%2==0:
-        print(v)
+        print(v)"""

@@ -1,6 +1,6 @@
 my_list=[23,45,63,78]
 for list in my_list:
-#for list in enumerate (my_list): #enumerate 
+#for list in enumerate (my_list): #enumerate-default kodtha 0 thot varum (,) it kodtha nama kodukana num ansarich varum
     print(list,end=" ")
 print("")
  
