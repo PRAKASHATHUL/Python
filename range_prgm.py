@@ -1,12 +1,12 @@
-"""num=int(input("Enter the number:"))
+num=int(input("Enter the number:"))
 for k in range(1,11):
     print(f"{k}*{num}={k*num}")
 print("")
-"""
+
     
-name=input("Enter name :")
+"""name=input("Enter name :")
 for n in range(8):
-    print(name)
+    print(name)"""
     
 
 """num=int(input("Enter the number:"))
