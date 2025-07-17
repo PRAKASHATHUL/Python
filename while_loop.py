@@ -23,7 +23,7 @@ while mul<=10:
     mul+=1
     """
        
-while True:
+"""while True:
     num1=int(input("Enter the first no:"))  
     num2=int(input("Enter the second no:"))
     print("Please enter your choice:\n 1.Addition \n 2.Subraction \n 3.Division \n 4.Multiplication")
@@ -40,4 +40,12 @@ while True:
         print("Please enter a valid choice")
     s=str(input("Do you want to continue(yes/no):"))
     if s.lower()!="yes":
-        break
+        break"""
+    
+#Pattern
+
+i=0
+while i<=4:
+    i+=1
+    print("* "*i)
+    
