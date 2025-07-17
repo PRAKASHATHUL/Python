@@ -22,3 +22,11 @@ for a in range(1,6):
         a=a+n
         n-=1
     print()
+    
+    
+for a in range(1,5):
+    print("*",end="")
+for b in range(1,4):
+    print("*")
+for c in range(1,6):
+    print("*",end="")
