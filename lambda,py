@@ -1,0 +1,40 @@
+
+def Addition(a,b):
+    return a+b
+print(Addition(2,3))
+
+
+#lamba- It behaves like a function ie. oru function kodukand lambda use cheyth namak cheyan patum
+v=lambda a,b:a+b
+print(v(2,8))
+
+even=lambda num:True if num%2==0 else False
+print(even(8))
+
+
+even=lambda num:f"{num} is even" if num%2==0 else f"{num} is odd"
+n=int(input("Enter the number :"))
+print(even(n))
+
+def Squares(num):
+    return num**2
+numbers=[2,3,4,5]
+for k in numbers:
+    print(Squares(k),end=" ")
+print()
+
+    
+def Squares(num):
+    return num**2
+numbers=[2,3,4,5]
+print(set(map(Squares,numbers)))
+
+
+
+numbers=[3,2,5,4]
+print(list(map(lambda x:x**2,numbers)))
+
+
+
+
+
