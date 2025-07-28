@@ -3,7 +3,7 @@ def Fact(num):
         return num
     else:
         return num*Fact(num-1)
-print(Fact(4))
+print(Fact(5))
         
         
 def Rev(s):
