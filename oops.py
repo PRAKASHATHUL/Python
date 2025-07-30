@@ -34,7 +34,7 @@ print(Laptops.owner)"""
 
 #Inheritance
 
-class Vehicles:
+"""class Vehicles:
     def Detail(self,m,model):
         self.make=m
         self.model=model
@@ -44,6 +44,7 @@ class Car(Vehicles):
         self.color=c
         self.power=p
 c1=Car(c="Red",p="199bhp")
-c1.Detail(m="1969",model="Ambassador")
+c1.Detail("1969","Ambassador")
 print(c1.color)
 print(c1.model)
+"""
